@@ -35,7 +35,7 @@ For each video file:
            Clear frame_queue
        If no more frames in video:
            Release video capture
-           '''
+'''
 
 Image processing procedure is shown below
 
