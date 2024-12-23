@@ -13,7 +13,8 @@ Our pipeline is shown below.
 - Low Light Image Enhancement Model : Zero-DiDCE
 - Dataset : BDD100k, NOD(Night Object Detection)
 - Noise Map Extraction Model : CBDNet-pytorch(Matlab pytorch
-
+- Deglaring : MFDNet
+- Deblurring : NAFNet
 
 ## Frame drop mechainsm psuedo code
 ```
