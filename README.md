@@ -17,24 +17,24 @@ Our pipeline is shown below.
 
 ## Frame drop mechainsm psuedo code
 '''bash
- Initialize frame_queue as empty
- For each video file:
-    Open video capture
-    While video capture is open:
-        Retrieve frame from video capture and append to frame_queue
-        If frame_queue size == 5:
-            Compute average_total_box_area as the mean of total box areas in frame_queue
-            Initialize importance_scores as an empty list
-            For each frame in frame_queue:
-                Compute importance_score as:
-                1 - abs(total_box_area - average_total_box_area) / average_total_box_area
-                Append importance_score to importance_scores
-            Sort importance_scores in descending order
-            Select the frame with the highest importance_score
-            Save the selected frame and metadata
-            Clear frame_queue
-        If no more frames in video:
-            Release video capture
+Initialize frame_queue as empty
+For each video file:
+   Open video capture
+   While video capture is open:
+       Retrieve frame from video capture and append to frame_queue
+       If frame_queue size == 5:
+           Compute average_total_box_area as the mean of total box areas in frame_queue
+           Initialize importance_scores as an empty list
+           For each frame in frame_queue:
+               Compute importance_score as:
+               1 - abs(total_box_area - average_total_box_area) / average_total_box_area
+               Append importance_score to importance_scores
+           Sort importance_scores in descending order
+           Select the frame with the highest importance_score
+           Save the selected frame and metadata
+           Clear frame_queue
+       If no more frames in video:
+           Release video capture
 '''
 
 Image processing procedure is shown below
