@@ -3,6 +3,7 @@ Mar, 2024 - Dec, 2024
 ## Motivation
 In Autonomous driving situation which is especially for Low-light environment, it is difficult to detect object such as car, person, truck, ..etc. Therefore, we suggested Noise Map-Driven Dynamic Framework Processing for improved Object Detection in Low-Light Conditions.
 Our pipeline is shown below.
+
 ![image](https://github.com/user-attachments/assets/8d705f13-cc20-4ef7-9f2d-d8f4b6133235)
 
 ## Requirements
@@ -15,7 +16,7 @@ Our pipeline is shown below.
 
 
 ## Frame drop mechainsm psuedo code
-"""
+'''
  Initialize frame_queue as empty
  For each video file:
     Open video capture
@@ -34,12 +35,14 @@ Our pipeline is shown below.
             Clear frame_queue
         If no more frames in video:
             Release video capture
-"""
+'''
 
 Image processing procedure is shown below
+
 ![image](https://github.com/user-attachments/assets/beedc9d6-d209-44e0-a3b3-22d4c365e359)
 
 We accomplished 1% Map(Mean Average Precision) increase about NOD dataset!
+
 ![image](https://github.com/user-attachments/assets/27b069ee-1db2-4a57-9d43-7491827f6a45)
 
 
