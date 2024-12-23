@@ -45,4 +45,7 @@ We accomplished 1% Map(Mean Average Precision) increase about NOD dataset!
 
 ![image](https://github.com/user-attachments/assets/27b069ee-1db2-4a57-9d43-7491827f6a45)
 
+# Contact
+If you have any question about this research or want to see entire report, feel free to contact to logg72@dgist.ac.kr.
+
 
