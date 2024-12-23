@@ -16,7 +16,7 @@ Our pipeline is shown below.
 
 
 ## Frame drop mechainsm psuedo code
-'''
+'''bash
  Initialize frame_queue as empty
  For each video file:
     Open video capture
