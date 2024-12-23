@@ -16,7 +16,7 @@ Our pipeline is shown below.
 
 
 ## Frame drop mechainsm psuedo code
-'''bash
+'''python
 Initialize frame_queue as empty
 For each video file:
    Open video capture
@@ -35,7 +35,7 @@ For each video file:
            Clear frame_queue
        If no more frames in video:
            Release video capture
-'''
+           '''
 
 Image processing procedure is shown below
 
