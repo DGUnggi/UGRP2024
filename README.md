@@ -68,10 +68,10 @@ Average Processing Time: Achieved real-time processing at 20 FPS on RTX 3090
 ![image](https://github.com/user-attachments/assets/27b069ee-1db2-4a57-9d43-7491827f6a45)
 
 # 🤝 Contributors
-Seungbin Lee (sblee1018@dgist.ac.kr)
-Unggi Lee (logg72@dgist.ac.kr)
-Yeo-Jin Kim (kimyeojink@dgist.ac.kr)
-Hanseul Choi (hanseul.choi@dgist.ac.kr)
+- Seungbin Lee (sblee1018@dgist.ac.kr)
+- Unggi Lee (logg72@dgist.ac.kr)
+- Yeo-Jin Kim (kimyeojink@dgist.ac.kr)
+- Hanseul Choi (hanseul.choi@dgist.ac.kr)
 
 # Contact
 If you have any question about this research or want to see entire report, feel free to contact to logg72@dgist.ac.kr.
