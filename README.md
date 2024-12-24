@@ -1,6 +1,6 @@
 # UGRP2024
 Mar, 2024 - Dec, 2024
-📜 Project Overview
+# 📜 Project Overview
 - This project proposes a novel pipeline to enhance object detection performance in low-light conditions.
 - Core Features: YOLO-based object detection, noise map utilization, and integrated pre/post-processing techniques.
 Goals:
@@ -21,7 +21,7 @@ Our pipeline is shown below.
 - Low Light Image Enhancement Model : Zero-DiDCE
 - Dataset : BDD100k, NOD(Night Object Detection)
 
-🚀 Key Features
+# 🚀 Key Features
 ## Image Preprocessing
 Zero-DiDCE: Enhances brightness and quality of low-light images.
 CBDNet: Generates noise maps for identifying critical regions.
@@ -59,7 +59,7 @@ Image processing procedure is shown below
 
 ![image](https://github.com/user-attachments/assets/beedc9d6-d209-44e0-a3b3-22d4c365e359)
 
-📊 Experimental Results
+# 📊 Experimental Results
 Dataset: BDD100k, NOD (Night Object Detection)
 Key Metrics:
 Mean Average Precision (mAP): Improved by ~1%
@@ -67,9 +67,9 @@ Average Processing Time: Achieved real-time processing at 20 FPS on RTX 3090
 
 ![image](https://github.com/user-attachments/assets/27b069ee-1db2-4a57-9d43-7491827f6a45)
 
-🤝 Contributors
+# 🤝 Contributors
 Seungbin Lee (sblee1018@dgist.ac.kr)
-Woonggi Lee (logg72@dgist.ac.kr)
+Unggi Lee (logg72@dgist.ac.kr)
 Yeo-Jin Kim (kimyeojink@dgist.ac.kr)
 Hanseul Choi (hanseul.choi@dgist.ac.kr)
 
